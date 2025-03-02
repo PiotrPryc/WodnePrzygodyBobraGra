@@ -422,6 +422,7 @@ metadata/_edit_use_anchors_ = true
 [node name="CzyWieszZeCanvas" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 layer = 3
+visible = false
 
 [node name="Wiedza1" parent="CzyWieszZeCanvas" instance=ExtResource("13_6jotd")]
 unique_name_in_owner = true
