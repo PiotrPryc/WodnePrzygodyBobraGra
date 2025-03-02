@@ -55,12 +55,18 @@ texture = SubResource("GradientTexture2D_u8i2k")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = -153.0
-offset_top = -168.0
-offset_right = 191.0
-offset_bottom = -5.0
+offset_left = -188.0
+offset_top = -198.0
+offset_right = 41.0
 bbcode_enabled = true
-text = "Ekran powitalny"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 33.0
+offset_top = -91.0
+offset_right = 314.0
+offset_bottom = 107.0
+bbcode_enabled = true
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0

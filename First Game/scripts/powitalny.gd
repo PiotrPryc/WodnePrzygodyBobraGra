@@ -3,11 +3,32 @@ extends Control
 
 @onready var close_button: Button = $Button
 @onready var pytanie_label: RichTextLabel = $RichTextLabel
+@onready var objasnienie_label: RichTextLabel = $RichTextLabel2
+
 @onready var canvas = %PowitalnyCanvas
 @onready var hud = %Hud
 			
 func _ready() -> void:
 	pytanie_label.bbcode_enabled = true
+	pytanie_label.text = "Wodne Przygody Bobra
+
+Gra stworzona na konkurs:
+   Błękitny krwiobieg Ziemi
+
+Autorzy:
+  Piotr Pryć
+  Tomasz Maślanka"
+
+	objasnienie_label.bbcode_enabled = true
+	objasnienie_label.text = "Wodne Przygody Bobra
+
+Gra stworzona na konkurs:
+   Błękitny krwiobieg Ziemi
+
+Autorzy:
+  Piotr Pryć
+  Tomasz Maślanka"	
+	
 	canvas.visible = true
 	visible = true
 	close_button.pressed.connect(_on_close_pressed)
