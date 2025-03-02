@@ -6,8 +6,8 @@ extends Control
 
 func _ready() -> void:
 	# Hide the entire popup initially
-	canvas_czywieszze.visible = true
-	visible = true
+	canvas_czywieszze.visible = false
+	visible = false
 	close_button.pressed.connect(_on_close_pressed)
 
 # Function to show the entire popup window

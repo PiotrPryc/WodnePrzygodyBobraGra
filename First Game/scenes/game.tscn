@@ -448,6 +448,20 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 
+[node name="Wiedza3" parent="CzyWieszZeCanvas" instance=ExtResource("13_6jotd")]
+unique_name_in_owner = true
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+
 [node name="Node" type="Node" parent="."]
 
 [node name="Wiedza1" parent="Node" instance=ExtResource("14_bxqoo")]
+
+[node name="Wiedza2" parent="Node" instance=ExtResource("14_bxqoo")]
+position = Vector2(77, -25)
+
+[node name="Wiedza3" parent="Node" instance=ExtResource("14_bxqoo")]
+position = Vector2(164, -5)
