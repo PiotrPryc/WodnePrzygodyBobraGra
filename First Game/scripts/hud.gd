@@ -3,10 +3,12 @@ extends Control
 @onready var timer_label: RichTextLabel = $TimerLabel
 @onready var score_label: RichTextLabel = $ScoreLabel
 @onready var game_timer: Timer = $GameTimer
+@onready var canvas_czywieszze = %CzyWieszZeCanvas
 
 var time_left: int = 10  # Start with 20 seconds
 var score: int = 0
 var is_paused: bool = false
+var is_counter_paused: bool = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -24,12 +26,15 @@ func _ready() -> void:
 
 # Updates the timer every second
 func _on_timer_tick() -> void:
-	if not is_paused and time_left > 0:
+	if not canvas_czywieszze.visible and not is_paused and time_left > 0:
+		is_counter_paused = false
 		time_left -= 1
 		update_timer_display()
 		
 		if time_left <= 0:
 			game_over()
+	else:
+		is_counter_paused = true
 
 # Updates the timer display in the HUD
 func update_timer_display() -> void:
@@ -63,3 +68,10 @@ func _process(delta: float) -> void:
 func toggle_pause() -> void:
 	is_paused = !is_paused
 	game_timer.set_paused(is_paused)
+	
+func is_game_paused() -> bool:
+	return is_counter_paused
+	
+	
+	
+	

@@ -13,12 +13,12 @@ script = ExtResource("1_4q1fd")
 
 [node name="ScoreLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_right = 120.0
+offset_right = 140.0
 offset_bottom = 80.0
 
 [node name="TimerLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_right = 100.0
+offset_right = 140.0
 offset_bottom = 80.0
 
 [node name="GameTimer" type="Timer" parent="."]

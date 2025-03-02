@@ -415,6 +415,7 @@ text = "Great job!"
 horizontal_alignment = 1
 
 [node name="CanvasHud" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
 layer = 2
 
 [node name="Hud" parent="CanvasHud" instance=ExtResource("12_8k120")]
@@ -429,19 +430,9 @@ grow_vertical = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="CzyWieszZeCanvas" type="CanvasLayer" parent="."]
-unique_name_in_owner = true
 layer = 3
 
-[node name="Wiedza1" parent="CzyWieszZeCanvas" instance=ExtResource("13_6jotd")]
-unique_name_in_owner = true
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-
-[node name="Wiedza2" parent="CzyWieszZeCanvas" instance=ExtResource("13_6jotd")]
-unique_name_in_owner = true
+[node name="CzyWieszZe" parent="CzyWieszZeCanvas" instance=ExtResource("13_6jotd")]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -450,4 +441,4 @@ anchor_bottom = 0.5
 
 [node name="Node" type="Node" parent="."]
 
-[node name="Wiedza1" parent="Node" instance=ExtResource("14_bxqoo")]
+[node name="Wiedza" parent="Node" instance=ExtResource("14_bxqoo")]

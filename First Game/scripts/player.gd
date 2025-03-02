@@ -3,6 +3,7 @@ extends CharacterBody2D
 const SPEED = 130.0
 
 @onready var animated_sprite = $AnimatedSprite2D
+@onready var hud = %Hud
 
 func _physics_process(delta):
 	# Get the input direction: -1, 0, 1
@@ -22,7 +23,8 @@ func _physics_process(delta):
 		animated_sprite.play("go_up")
 
 	# Apply movement
-	velocity.x = direction_x * SPEED
-	velocity.y = direction_y * SPEED
+	if !hud.is_game_paused():
+		velocity.x = direction_x * SPEED
+		velocity.y = direction_y * SPEED
 
-	move_and_slide()
+		move_and_slide()
