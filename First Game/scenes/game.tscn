@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://cuv4vme4rwno0"]
+[gd_scene load_steps=22 format=3 uid="uid://cuv4vme4rwno0"]
 
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_l4ihi"]
 [ext_resource type="PackedScene" uid="uid://dqnaqj8yb6hwd" path="res://scenes/player.tscn" id="1_rbmkf"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://d2w2i5h0lhc6l" path="res://scenes/slime.tscn" id="6_l0s6b"]
 [ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="7_8cblx"]
 [ext_resource type="PackedScene" uid="uid://d2h2axrl0wmlm" path="res://scenes/HUD.tscn" id="12_8k120"]
+[ext_resource type="PackedScene" uid="uid://c0bdsbqie4irb" path="res://scenes/czywieszze.tscn" id="13_6jotd"]
 
 [sub_resource type="Animation" id="Animation_apgth"]
 length = 0.001
@@ -424,3 +425,13 @@ offset_right = -1152.0
 grow_horizontal = 0
 grow_vertical = 1
 metadata/_edit_use_anchors_ = true
+
+[node name="CzyWieszZeCanvas" type="CanvasLayer" parent="."]
+layer = 3
+
+[node name="CzyWieszZe" parent="CzyWieszZeCanvas" instance=ExtResource("13_6jotd")]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
