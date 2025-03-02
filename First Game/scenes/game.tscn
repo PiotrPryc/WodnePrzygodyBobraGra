@@ -366,14 +366,20 @@ position = Vector2(529, 81)
 [node name="Labels" type="Node" parent="."]
 
 [node name="Label" type="Label" parent="Labels"]
-offset_left = -119.0
-offset_top = 82.0
-offset_right = -23.0
-offset_bottom = 100.0
+offset_left = -79.0
+offset_top = 14.0
+offset_right = 149.0
+offset_bottom = 96.0
 theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
 theme_override_fonts/font = ExtResource("7_8cblx")
 theme_override_font_sizes/font_size = 8
-text = "Space to jump."
+text = "Witamy w grze Wodne Przygody Bobra
+
+    Zbieraj:
+      * jedzenie, aby zyskać czas
+      * wiedzę, aby zdobyć punkty
+
+    POWODZENIA !"
 
 [node name="Label2" type="Label" parent="Labels"]
 offset_left = 368.0
@@ -417,3 +423,4 @@ offset_left = -1152.0
 offset_right = -1152.0
 grow_horizontal = 0
 grow_vertical = 1
+metadata/_edit_use_anchors_ = true
