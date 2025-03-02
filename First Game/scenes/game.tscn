@@ -418,6 +418,7 @@ horizontal_alignment = 1
 layer = 2
 
 [node name="Hud" parent="CanvasLayer" instance=ExtResource("12_8k120")]
+unique_name_in_owner = true
 anchors_preset = 1
 anchor_left = 1.0
 anchor_bottom = 0.0
