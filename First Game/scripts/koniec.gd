@@ -6,7 +6,7 @@ extends Control
 
 @onready var pause_canvas = %KoniecCanvas
 @onready var hud = %Hud
-			
+
 func _ready() -> void:
 	pytanie_label.bbcode_enabled = true
 	pytanie_label.text = """
@@ -17,7 +17,7 @@ func _ready() -> void:
 [font_size=20][b]Piotr Pryć[/b][/font_size]
 [font_size=20][b]Tomasz Maślanka[/b][/font_size]
 	"""
-	
+
 	pause_canvas.visible = false
 	visible = false
 	close_button.pressed.connect(_on_close_pressed)
@@ -35,7 +35,7 @@ func _on_close_pressed() -> void:
 	visible = false
 	hud.is_paused = false
 	get_tree().reload_current_scene()
-	
+
 
 func toggle_visible() -> void:
 	pause_canvas.visible = !pause_canvas.visible

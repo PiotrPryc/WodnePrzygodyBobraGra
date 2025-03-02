@@ -9,7 +9,7 @@ extends Control
 
 var time_left: int = 30
 var score: int = 0
-var max_score: int = 30
+var max_score: int = 3
 var is_paused: bool = false
 var is_counter_paused: bool = false
 
@@ -46,7 +46,8 @@ func update_timer_display() -> void:
 # Updates the score display in the HUD
 func update_score_display() -> void:
 	score_label.text = "[font_size=25][center][color=yellow]Ciekawostki: [/color][color=green]" + str(score) + "[/color] z [color=green]" + str(max_score) + "[/color][/center][/font_size]"
-
+	if score >= max_score:
+		game_over()
 # Adds time when collecting special items
 func add_time(amount: int) -> void:
 	time_left += amount
