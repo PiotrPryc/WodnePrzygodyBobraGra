@@ -5,8 +5,9 @@ extends Control
 @onready var game_timer: Timer = $GameTimer
 @onready var canvas_czywieszze = %CzyWieszZeCanvas
 @onready var canvas_pauza = %PauzaCanvas
+@onready var koniec_gry = %koniec
 
-var time_left: int = 30
+var time_left: int = 3
 var score: int = 0
 var max_score: int = 30
 var is_paused: bool = false
@@ -40,7 +41,7 @@ func _on_timer_tick() -> void:
 
 # Updates the timer display in the HUD
 func update_timer_display() -> void:
-	timer_label.text = "[font_size=25][center][color=yellow]Czas: [/color][color=red]%d[/color][/center][/font_size]" % time_left
+	timer_label.text = "[font_size=25][center][color=yellow]Czas: [/color][color=red]%ds[/color][/center][/font_size]" % time_left
 
 # Updates the score display in the HUD
 func update_score_display() -> void:
@@ -58,6 +59,7 @@ func increase_score(points: int) -> void:
 
 # Stops the game when time runs out
 func game_over() -> void:
+	koniec_gry.show_popup()
 	game_timer.stop()
 	timer_label.text = "[font_size=25][center][color=yellow]Czas: [/color][color=red]%d[/color][/center][/font_size]" % time_left
 

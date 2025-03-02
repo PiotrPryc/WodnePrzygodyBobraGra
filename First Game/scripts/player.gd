@@ -4,6 +4,7 @@ const SPEED = 130.0
 
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var hud = %Hud
+@onready var canvas_koniec_gry = %KoniecCanvas
 
 func _physics_process(delta):
 	# Get the input direction: -1, 0, 1
@@ -23,7 +24,7 @@ func _physics_process(delta):
 		animated_sprite.play("go_up")
 
 	# Apply movement
-	if !hud.is_game_paused():
+	if not hud.is_game_paused() and not canvas_koniec_gry.visible:
 		velocity.x = direction_x * SPEED
 		velocity.y = direction_y * SPEED
 
