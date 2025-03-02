@@ -4,6 +4,7 @@ extends Control
 @onready var score_label: RichTextLabel = $ScoreLabel
 @onready var game_timer: Timer = $GameTimer
 @onready var canvas_czywieszze = %CzyWieszZeCanvas
+@onready var canvas_pauza = %PauzaCanvas
 
 var time_left: int = 10  # Start with 20 seconds
 var score: int = 0
@@ -26,7 +27,7 @@ func _ready() -> void:
 
 # Updates the timer every second
 func _on_timer_tick() -> void:
-	if not canvas_czywieszze.visible and not is_paused and time_left > 0:
+	if not canvas_pauza.visible and not canvas_czywieszze.visible and not is_paused and time_left > 0:
 		is_counter_paused = false
 		time_left -= 1
 		update_timer_display()

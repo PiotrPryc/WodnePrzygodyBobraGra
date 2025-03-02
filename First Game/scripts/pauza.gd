@@ -23,6 +23,9 @@ func _ready() -> void:
 	close_button.pressed.connect(_on_close_pressed)
 	hud.is_paused = true
 	
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		show_popup()
 
 # Function to show the entire popup window
 func show_popup() -> void:
