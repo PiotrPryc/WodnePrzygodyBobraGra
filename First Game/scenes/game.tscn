@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://cuv4vme4rwno0"]
+[gd_scene load_steps=22 format=3 uid="uid://cuv4vme4rwno0"]
 
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_l4ihi"]
 [ext_resource type="PackedScene" uid="uid://dqnaqj8yb6hwd" path="res://scenes/player.tscn" id="1_rbmkf"]
@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://d2h2axrl0wmlm" path="res://scenes/HUD.tscn" id="12_8k120"]
 [ext_resource type="PackedScene" uid="uid://c0bdsbqie4irb" path="res://scenes/czywieszze.tscn" id="13_6jotd"]
 [ext_resource type="PackedScene" uid="uid://b4i5iergyefvl" path="res://scenes/wiedza.tscn" id="14_bxqoo"]
+[ext_resource type="PackedScene" uid="uid://oo6puq8h15w2" path="res://scenes/powitalny.tscn" id="14_exqu0"]
 
 [sub_resource type="Animation" id="Animation_apgth"]
 length = 0.001
@@ -457,3 +458,13 @@ position = Vector2(77, -25)
 
 [node name="Wiedza3" parent="Node" instance=ExtResource("14_bxqoo")]
 position = Vector2(164, -5)
+
+[node name="PowitalnyCanvas" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="powitalny" parent="PowitalnyCanvas" instance=ExtResource("14_exqu0")]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
