@@ -9,7 +9,7 @@ extends Control
 
 var time_left: int = 30
 var score: int = 0
-var max_score: int = 3
+var max_score: int = 30
 var is_paused: bool = false
 var is_counter_paused: bool = false
 

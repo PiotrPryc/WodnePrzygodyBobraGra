@@ -624,88 +624,88 @@ position = Vector2(-224, 95)
 position = Vector2(616, -224)
 
 [node name="Wiedza3" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(357, 217)
+position = Vector2(566, 248)
 
 [node name="Wiedza4" parent="Node" instance=ExtResource("14_bxqoo")]
 position = Vector2(-234, 492)
 
 [node name="Wiedza5" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(675, 278)
+position = Vector2(-234, 492)
 
 [node name="Wiedza6" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(709, 556)
+position = Vector2(-234, 492)
 
 [node name="Wiedza7" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-363, 258)
+position = Vector2(-234, 492)
 
 [node name="Wiedza8" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-290, -168)
+position = Vector2(-234, 492)
 
 [node name="Wiedza9" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(83, -546)
+position = Vector2(-234, 492)
 
 [node name="Wiedza10" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-858, -690)
+position = Vector2(-234, 492)
 
 [node name="Wiedza11" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-683, -354)
+position = Vector2(-234, 492)
 
 [node name="Wiedza12" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-500, 417)
+position = Vector2(-234, 492)
 
 [node name="Wiedza13" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(828, -86)
+position = Vector2(-234, 492)
 
 [node name="Wiedza14" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(592, -477)
+position = Vector2(-234, 492)
 
 [node name="Wiedza15" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-442, 732)
+position = Vector2(-234, 492)
 
 [node name="Wiedza16" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-848, 207)
+position = Vector2(-234, 492)
 
 [node name="Wiedza17" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(226, 364)
+position = Vector2(-234, 492)
 
 [node name="Wiedza18" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-398, -467)
+position = Vector2(-234, 492)
 
 [node name="Wiedza19" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-510, -178)
+position = Vector2(-234, 492)
 
 [node name="Wiedza20" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(347, -214)
+position = Vector2(-234, 492)
 
 [node name="Wiedza21" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(972, 268)
+position = Vector2(-234, 492)
 
 [node name="Wiedza22" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(699, 722)
+position = Vector2(-234, 492)
 
 [node name="Wiedza23" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-1097, -548)
+position = Vector2(-234, 492)
 
 [node name="Wiedza24" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-987, 502)
+position = Vector2(-234, 492)
 
 [node name="Wiedza25" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(521, 386)
+position = Vector2(-234, 492)
 
 [node name="Wiedza26" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(0, -268)
+position = Vector2(-234, 492)
 
 [node name="Wiedza27" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(763, 119)
+position = Vector2(-234, 492)
 
 [node name="Wiedza28" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(818, 415)
+position = Vector2(-234, 492)
 
 [node name="Wiedza29" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(-559, 278)
+position = Vector2(-234, 492)
 
 [node name="Wiedza30" parent="Node" instance=ExtResource("14_bxqoo")]
-position = Vector2(50, 268)
+position = Vector2(-234, 492)
 
 [node name="PowitalnyCanvas" type="CanvasLayer" parent="."]
 unique_name_in_owner = true

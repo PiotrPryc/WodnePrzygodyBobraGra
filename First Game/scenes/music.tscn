@@ -1,8 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://4kg150o2entl"]
+[gd_scene load_steps=3 format=3 uid="uid://4kg150o2entl"]
 
-[ext_resource type="AudioStream" uid="uid://m73dm4jhs3eq" path="res://assets/music/time_for_adventure.mp3" id="1_q0dvm"]
+[ext_resource type="AudioStream" uid="uid://vhfh68p2rhye" path="res://assets/music/birds-ambiance-204513.mp3" id="1_kfgaj"]
+
+[sub_resource type="AudioStreamMP3" id="AudioStreamMP3_eti3g"]
 
 [node name="Music" type="AudioStreamPlayer2D"]
-stream = ExtResource("1_q0dvm")
+stream = SubResource("AudioStreamMP3_eti3g")
 autoplay = true
-bus = &"Music"
+
+[node name="Birds-ambiance-204513" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1122, 346)
+stream = ExtResource("1_kfgaj")
+autoplay = true
+parameters/looping = true
