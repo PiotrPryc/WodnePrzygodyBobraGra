@@ -1,6 +1,8 @@
-[gd_scene load_steps=6 format=4 uid="uid://14g5v7fpmgnl"]
+[gd_scene load_steps=21 format=4 uid="uid://14g5v7fpmgnl"]
 
+[ext_resource type="Texture2D" uid="uid://d38omwflytk0h" path="res://assets/sprites/beaver-SWEN.png" id="2_576jp"]
 [ext_resource type="Texture2D" uid="uid://vqljwfloqrbh" path="res://assets/sprites/bush.png" id="2_qkb4h"]
+[ext_resource type="Script" path="res://scripts/autoscroll.gd" id="3_m23m7"]
 
 [sub_resource type="Gradient" id="Gradient_8w8gx"]
 offsets = PackedFloat32Array(0.00252845, 0.614412, 1)
@@ -30,6 +32,98 @@ texture = ExtResource("2_qkb4h")
 [sub_resource type="TileSet" id="TileSet_aipr0"]
 sources/0 = SubResource("TileSetAtlasSource_ay6jm")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jxiu"]
+atlas = ExtResource("2_576jp")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqljr"]
+atlas = ExtResource("2_576jp")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xoxaj"]
+atlas = ExtResource("2_576jp")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gbvjv"]
+atlas = ExtResource("2_576jp")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvhv1"]
+atlas = ExtResource("2_576jp")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iv2vo"]
+atlas = ExtResource("2_576jp")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u3fnn"]
+atlas = ExtResource("2_576jp")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wg2yb"]
+atlas = ExtResource("2_576jp")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fiytv"]
+atlas = ExtResource("2_576jp")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_84jky"]
+atlas = ExtResource("2_576jp")
+region = Rect2(0, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s2fjj"]
+atlas = ExtResource("2_576jp")
+region = Rect2(32, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vh1vo"]
+atlas = ExtResource("2_576jp")
+region = Rect2(64, 96, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t6mpa"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jxiu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqljr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xoxaj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gbvjv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvhv1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iv2vo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u3fnn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wg2yb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fiytv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_84jky")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s2fjj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vh1vo")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="koniec" type="Control"]
 layout_mode = 3
 anchors_preset = 15
@@ -53,19 +147,18 @@ texture = SubResource("GradientTexture2D_u8i2k")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = -188.0
-offset_top = -166.0
-offset_right = 123.0
-offset_bottom = 32.0
+offset_top = -171.0
+offset_right = 311.0
+offset_bottom = 27.0
 bbcode_enabled = true
 fit_content = true
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = -17.0
-offset_top = 58.0
-offset_right = 134.0
-offset_bottom = 89.0
+offset_left = -10.0
+offset_top = 31.0
+offset_right = 141.0
+offset_bottom = 62.0
 text = "Zagraj jeszcze raz !"
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
@@ -80,3 +173,34 @@ offset_right = 291.0
 offset_bottom = -166.0
 bbcode_enabled = true
 text = "[center][font_size=28][b]Wodne Przygody Bobra[/b][/font_size][/center]"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-109, -118)
+scale = Vector2(3.34375, 2.625)
+sprite_frames = SubResource("SpriteFrames_t6mpa")
+autoplay = "default"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = -126.0
+offset_top = 61.0
+offset_right = 263.0
+offset_bottom = 127.0
+bbcode_enabled = true
+text = "[center][font_size=40][b][color=#FF4444]★ KONIEC GRY ★[/color][/b][/font_size][/center]"
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("3_m23m7")
+
+[node name="Credits" type="RichTextLabel" parent="Control"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = -188.0
+offset_top = -56.0
+offset_right = -27.0
+offset_bottom = 53.0
+bbcode_enabled = true
+scroll_active = false
