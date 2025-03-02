@@ -7,7 +7,7 @@ extends Control
 @onready var canvas_pauza = %PauzaCanvas
 @onready var koniec_gry = %koniec
 
-var time_left: int = 3
+var time_left: int = 30
 var score: int = 0
 var max_score: int = 30
 var is_paused: bool = false
