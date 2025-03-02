@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=4 uid="uid://c0bdsbqie4irb"]
+[gd_scene load_steps=7 format=4 uid="uid://c0bdsbqie4irb"]
 
 [ext_resource type="Texture2D" uid="uid://vqljwfloqrbh" path="res://assets/sprites/bush.png" id="1_nis7g"]
+[ext_resource type="Script" path="res://scripts/czywieszze.gd" id="1_yfrwy"]
 
 [sub_resource type="Gradient" id="Gradient_8w8gx"]
 offsets = PackedFloat32Array(0.00252845, 0.614412, 1)
@@ -37,6 +38,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_yfrwy")
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 0
