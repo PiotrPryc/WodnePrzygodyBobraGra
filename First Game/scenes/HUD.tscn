@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://d2h2axrl0wmlm"]
+[gd_scene load_steps=3 format=3 uid="uid://d2h2axrl0wmlm"]
 
 [ext_resource type="Script" path="res://scripts/hud.gd" id="1_4q1fd"]
+[ext_resource type="Texture2D" uid="uid://cg7n23daireqb" path="res://assets/sprites/sp83logo.png" id="2_1ithn"]
 
 [node name="Hud" type="Control"]
 layout_mode = 3
@@ -22,3 +23,10 @@ offset_right = 140.0
 offset_bottom = 80.0
 
 [node name="GameTimer" type="Timer" parent="."]
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Sp83Logo" type="Sprite2D" parent="."]
+position = Vector2(1070.75, 87.25)
+scale = Vector2(0.981618, 0.981618)
+texture = ExtResource("2_1ithn")
