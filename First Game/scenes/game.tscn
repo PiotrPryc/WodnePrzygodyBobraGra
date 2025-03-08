@@ -1361,6 +1361,7 @@ position = Vector2(118, 30)
 
 [node name="CanvasHud" type="CanvasLayer" parent="."]
 layer = 2
+visible = false
 
 [node name="Hud" parent="CanvasHud" instance=ExtResource("12_8k120")]
 unique_name_in_owner = true
