@@ -28,11 +28,11 @@ func _ready() -> void:
 Twoim zadaniem jest zbierać [b]ciekawostki geologiczne i wodne[/b], oraz ratować środowisko, [b]usuwając śmieci z wody i planety![/b][/color][/font_size]
 [font_size=10]<przewiń w dół>[/font_size]
 [font_size=12][color=#FFFFFF]🕒 [b]Gra trwa 30 sekund[/b], ale możesz przedłużyć czas, zbierając śmieci![/color][/font_size]
-
+↓[/color][/b] - Ruch w górę i dół[/font_size]
+[font_size=12][b][color=#FFD700]ESC[
 [font_size=12][color=#FFFFFF]🎮 [b]Sterowanie:[/b][/color][/font_size]
 [font_size=12][b][color=#FFD700]← →[/color][/b] - Ruch w lewo i prawo[/font_size]
-[font_size=12][b][color=#FFD700]↑ ↓[/color][/b] - Ruch w górę i dół[/font_size]
-[font_size=12][b][color=#FFD700]ESC[/color][/b] - Pauza[/font_size]
+[font_size=12][b][color=#FFD700]↑ /color][/b] - Pauza[/font_size]
 
 [font_size=12][color=#FFFFFF]🎯 [b]Cel gry:[/b] Zbierz [b]30 ciekawostek[/b] zanim skończy się czas!  
 Gra kończy się, gdy:[/color][/font_size]

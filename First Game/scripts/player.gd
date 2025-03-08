@@ -25,7 +25,7 @@ func _physics_process(delta):
 
 	# Apply movement
 	if not hud.is_game_paused() and not canvas_koniec_gry.visible:
-		velocity.x = direction_x * SPEED
-		velocity.y = direction_y * SPEED
+		velocity.x = direction_x * SPEED * (sqrt(2)/2 * abs(direction_y) + 1 - abs(direction_y))
+		velocity.y = direction_y * SPEED * (sqrt(2)/2 * abs(direction_x) + 1 - abs(direction_x))
 
 		move_and_slide()
