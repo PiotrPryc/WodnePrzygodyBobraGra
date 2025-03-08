@@ -2,12 +2,13 @@
 
 [ext_resource type="Texture2D" uid="uid://b06ssik5tlsxg" path="res://assets/sprites/lock (1).png" id="1_qka2u"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_616bm"]
-size = Vector2(18, 18)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cfepg"]
 
 [node name="Lock" type="Sprite2D"]
 visibility_layer = 2
 texture = ExtResource("1_qka2u")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_616bm")
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_cfepg")
