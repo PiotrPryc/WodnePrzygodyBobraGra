@@ -11,65 +11,65 @@ func _ustaw_pytanie() -> void:
 
 	match self.name:
 		"Wiedza1":
-			ciekawostka_text = "Najgłębsze jezioro na świecie, Bajkał, ma aż 1642 metry głębokości i zawiera około 20% niezamarzniętej słodkiej wody na Ziemi!"
+			ciekawostka_text = "Wrocław rozwinął się przy ujściu Oławy do Odry, a najstarszy Ostrów Tumski założony został na odrzańskich wyspach."
 		"Wiedza2":
-			ciekawostka_text = "Źródła artezyjskie to podziemne zbiorniki wody, które wypływają na powierzchnię dzięki naturalnemu ciśnieniu. W Polsce znajdziesz je m.in. w Nałęczowie i Ciechocinku."
+			ciekawostka_text = "Odra – druga co do wielkości rzeka w Polsce bierze swój początek w Górach Odrzańskich w Sudetach Wschodnich na terytorium Republiki Czeskiej."
 		"Wiedza3":
-			ciekawostka_text = "Lodowce, które kiedyś pokrywały Polskę, zostawiły po sobie jeziora polodowcowe, wzgórza morenowe i wielkie doliny. Przykładem jest Pojezierze Mazurskie!"
+			ciekawostka_text = "Przewóz towarów Odrą ma długą historię. Jeszcze w XIX wieku łodzie i tratwy przepływały przez środek miasta, pokonując liczne śluzy."
 		"Wiedza4":
-			ciekawostka_text = "Dolny Śląsk to jeden z najbardziej zasobnych w wody termalne regionów Polski – znajdują się tu m.in. Cieplice-Zdrój i Lądek-Zdrój!"
+			ciekawostka_text = "Oława wpada do Odry na Przedmieściu Oławskim, koło mostu Grunwaldzkiego. Ta rzeka płynie także z wrocławskich kranów…"
 		"Wiedza5":
-			ciekawostka_text = "We Wrocławiu znajduje się ponad 100 mostów, co czyni go jednym z najbardziej „wodnych” miast w Polsce!"
+			ciekawostka_text = "Ślęza do Odry wpada na styku Maślic, Pilczyc i Rędzina, koło mostu Rędzińskiego."
 		"Wiedza6":
-			ciekawostka_text = "Rzeka Odra jest drugą najdłuższą rzeką w Polsce i od wieków pełniła kluczową rolę w transporcie i handlu na Dolnym Śląsku."
+			ciekawostka_text = "Bystrzyca ujście do Odry ma na Praczach Odrzańskich."
 		"Wiedza7":
-			ciekawostka_text = "Dolny Śląsk posiada największą liczbę uzdrowisk w Polsce – są to miejsca, gdzie wykorzystuje się lecznicze wody mineralne!"
+			ciekawostka_text = "Widawa wpada do Odry na styku Rędzina i Pracz Odrzańskich."
 		"Wiedza8":
-			ciekawostka_text = "W Sudetach znajdują się unikalne wodospady, takie jak Wodospad Kamieńczyka (27 m), który jest najwyższym wodospadem w polskich Sudetach!"
+			ciekawostka_text = "Nie wszystkim wiadomo, że we Wrocławiu jest w sumie nie pięć, a siedem rzek. Dwie pozostałe to Dobra i Zielona."
 		"Wiedza9":
-			ciekawostka_text = "Największe polskie podziemne jezioro znajduje się w kopalni uranu w Kowarach na Dolnym Śląsku!"
+			ciekawostka_text = "Najstarszy używany most we Wrocławiu to most Świętej Klary z 1799 roku, łączący Wyspę Młyńską i Wyspę Słodową."
 		"Wiedza10":
-			ciekawostka_text = "Dolny Śląsk był kiedyś dnem morza, co sprawia, że można tu znaleźć liczne skamieniałości morskie!"
+			ciekawostka_text = "Most Tumski chętnie odwiedzają szczególnie zakochani – kojarzy się z przypinaniem kłódek i wyrzucaniem kluczyka do wody, co symbolizuje miłość na zawsze."
 		"Wiedza11":
-			ciekawostka_text = "Krasowe źródła wody w Dolinie Baryczy to naturalne zbiorniki wody, które zasilają największy kompleks stawów rybnych w Polsce!"
+			ciekawostka_text = "Most Rędziński jest najdłuższym żelbetowym mostem podwieszonym w Polsce – część podwieszona ma 512 metrów długości."
 		"Wiedza12":
-			ciekawostka_text = "Gejzery wód termalnych występują nie tylko na Islandii, ale także w Polsce – np. w uzdrowisku Cieplice-Zdrój na Dolnym Śląsku!"
+			ciekawostka_text = "Wrocław to miasto mostów – szacuje się, że jest ich grubo ponad 100, czyli najwięcej w Polsce."
 		"Wiedza13":
-			ciekawostka_text = "Sztuczne zbiorniki wodne Dolnego Śląska, takie jak Jezioro Mietkowskie, pomagają w regulacji poziomu wód rzeki Odry!"
+			ciekawostka_text = "Wrocławski węzeł wodny (WWW) obejmuje Odrę, jej dopływy, kanały oraz urządzenia hydrotechniczne chroniące miasto przed powodziami."
 		"Wiedza14":
-			ciekawostka_text = "Wrocław leży na terenie dawnej delty Odry, co czyni jego gleby wyjątkowo żyznymi!"
+			ciekawostka_text = "WWW to największy w Polsce i jeden z największych w Europie system dróg wodnych i budowli hydrotechnicznych w obrębie miasta."
 		"Wiedza15":
-			ciekawostka_text = "Najstarsze znane źródło mineralne na Dolnym Śląsku znajduje się w Lądku-Zdroju i ma ponad 750 lat historii!"
+			ciekawostka_text = "Wzmianki o pierwszym porcie miejskim we Wrocławiu pochodzą z 1358 roku."
 		"Wiedza16":
-			ciekawostka_text = "W Sudetach można znaleźć unikalne formacje skalne utworzone przez wodę, takie jak Błędne Skały i Szczeliniec Wielki!"
+			ciekawostka_text = "Wrocławska Gondola to statek idealny na romantyczne rejsy – ma dach i zamykane boki na wypadek niepogody."
 		"Wiedza17":
-			ciekawostka_text = "Wody termalne Dolnego Śląska powstały miliony lat temu w wyniku aktywności geotermalnej!"
+			ciekawostka_text = "Na początku XX wieku we Wrocławiu pływały gondole – cumowały przy dzisiejszym Wzgórzu Polskim, w tzw. Zatoce Gondoli."
 		"Wiedza18":
-			ciekawostka_text = "Niektóre dolnośląskie rzeki, jak Bóbr czy Kwisa, były wykorzystywane do transportu drewna już w średniowieczu!"
+			ciekawostka_text = "Hydropolis to pierwsze w Polsce centrum nauki poświęcone całkowicie wodzie."
 		"Wiedza19":
-			ciekawostka_text = "W Sudetach występują wody mineralne o dużej zawartości siarki, które mają właściwości lecznicze!"
+			ciekawostka_text = "Sieć wodociągowa MPWiK we Wrocławiu ma długość aż 2210 km i ciągle się rozrasta."
 		"Wiedza20":
-			ciekawostka_text = "Dolny Śląsk posiada jedne z największych złóż wód pitnych w Polsce, a podziemne warstwy wodonośne sięgają nawet 200 m głębokości!"
+			ciekawostka_text = "Woda dostarczana mieszkańcom Wrocławia pochodzi z rzeki Oławy i Nysy Kłodzkiej – trafia do ZUW „Mokry Dwór” i „Na Grobli”."
 		"Wiedza21":
-			ciekawostka_text = "Podziemne jeziora krasowe w Górach Kaczawskich powstały przez wietrzenie wapienia pod wpływem wód gruntowych!"
+			ciekawostka_text = "Czy wiesz, że Odra jest drugą co do długości rzeką w Polsce, a jej dolnośląski odcinek był wielokrotnie regulowany, by zapobiegać powodziom?"
 		"Wiedza22":
-			ciekawostka_text = "Na Dolnym Śląsku występują wody radonowe, które wykorzystywane są w lecznictwie, np. w Świeradowie-Zdroju!"
+			ciekawostka_text = "Czy wiesz, że Wrocław był wielokrotnie nawiedzany przez powodzie, a największa z nich w 1997 roku nazwana została „powodzią tysiąclecia”?"
 		"Wiedza23":
-			ciekawostka_text = "Wrocławskie kanały wodne powstały w XIX wieku, by chronić miasto przed powodziami i poprawić żeglowność Odry!"
+			ciekawostka_text = "Czy wiesz, że aż 75% słodkiej wody jest uwięzione w lodowcach i pokrywach lodowych?"
 		"Wiedza24":
-			ciekawostka_text = "Stawy Milickie na Dolnym Śląsku to największy kompleks stawów rybnych w Europie, a ich historia sięga XIII wieku!"
+			ciekawostka_text = "Czy wiesz, że większość polskich rzek należy do zlewiska Bałtyku, ale są też takie, które wpadają do Morza Czarnego i Północnego."
 		"Wiedza25":
-			ciekawostka_text = "Jezioro Bystrzyckie w Zagórzu Śląskim powstało w wyniku spiętrzenia rzeki Bystrzycy tamą w latach 1911–1914!"
+			ciekawostka_text = "Czy wiesz, że najgłębsze jezioro świata to Bajkał, którego głębokość wynosi 1642 m?"
 		"Wiedza26":
-			ciekawostka_text = "Rzeka Nysa Kłodzka, przepływająca przez Dolny Śląsk, posiada jeden z największych systemów zapór wodnych w Polsce!"
+			ciekawostka_text = "Czy wiesz, że w Dolinie Kłodzkiej znajdują się jedne z najbardziej tajemniczych podziemnych rzek krasowych w Polsce?"
 		"Wiedza27":
-			ciekawostka_text = "Niektóre rzeki Dolnego Śląska, jak Kaczawa, w przeszłości niosły złotonośny piasek!"
+			ciekawostka_text = "Czy wiesz, że wody mineralne z Polanicy-Zdroju, Kudowy-Zdroju i Lądka-Zdroju są znane w całej Polsce i mają lecznicze właściwości?"
 		"Wiedza28":
-			ciekawostka_text = "Na Dolnym Śląsku znajdują się unikalne wąwozy wodne, takie jak Wąwóz Myśliborski z krasowymi źródłami!"
+			ciekawostka_text = "Czy wiesz, że w Górach Sowich można znaleźć ślady dawnych jezior polodowcowych, które zanikły na skutek erozji?"
 		"Wiedza29":
-			ciekawostka_text = "Góry Stołowe na Dolnym Śląsku mają nietypowe kształty skał utworzone przez miliony lat erozji wodnej!"
+			ciekawostka_text = "Czy wiesz, że pod Wrocławiem istnieją podziemne korytarze wodne, które były wykorzystywane do obrony miasta w dawnych czasach?"
 		"Wiedza30":
-			ciekawostka_text = "Dolina Baryczy to jedno z najczystszych miejsc w Polsce pod względem jakości wody – naturalna ostoja ptaków i rezerwat przyrody!"
+			ciekawostka_text = "Czy wiesz, że na Dolnym Śląsku znajdują się unikalne formy moren czołowych, które są pozostałością po lodowcu?"
 
 	var ciekawostka_template = """
 [center][font_size=30][b][color=#FFD700]🌟 Czy wiesz, że... 🌟[/color][/b][/font_size]

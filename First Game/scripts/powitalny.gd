@@ -17,27 +17,32 @@ func _ready() -> void:
 [font_size=12]Autorzy:[/font_size]
 [font_size=14][b]Piotr Pryć[/b][/font_size]
 [font_size=14][b]Tomasz Maślanka[/b][/font_size]
+
+[font_size=14][b]Szkoła Podstawowa
+numer 83 we Wrocławiu[/b][/font_size]
 	"""
 
 	objasnienie_label.bbcode_enabled = true
 	objasnienie_label.text = """
 [font_size=14][b][color=#FFD700]🌊 Witaj w wodnej przygodzie! 🌊[/color][/b][/font_size]
 
-[font_size=12][color=#FFFFFF]Wcielasz się w bobra, który próbuje [b]posprzątać swój zanieczyszczony dom[/b].  
+[font_size=12][color=#FFFFFF]Wcielasz się w bobra, który próbuje [b]posprzątać swój zanieczyszczony dom[/b].
 
 Twoim zadaniem jest zbierać [b]ciekawostki geologiczne i wodne[/b], oraz ratować środowisko, [b]usuwając śmieci z wody i planety![/b][/color][/font_size]
-[font_size=10]<przewiń w dół>[/font_size]
+[font_size=10][color=#FFFFFF]<przewiń w dół>[/color][/font_size]
+
 [font_size=12][color=#FFFFFF]🕒 [b]Gra trwa 30 sekund[/b], ale możesz przedłużyć czas, zbierając śmieci![/color][/font_size]
-↓[/color][/b] - Ruch w górę i dół[/font_size]
-[font_size=12][b][color=#FFD700]ESC[
+
 [font_size=12][color=#FFFFFF]🎮 [b]Sterowanie:[/b][/color][/font_size]
-[font_size=12][b][color=#FFD700]← →[/color][/b] - Ruch w lewo i prawo[/font_size]
-[font_size=12][b][color=#FFD700]↑ /color][/b] - Pauza[/font_size]
+[font_size=12][b][color=#FFD700]← →[/color][/b][color=#FFFFFF] - Ruch w lewo i prawo[/color][/font_size]
+[font_size=12][b][color=#FFD700]↑ ↓[/color][/b][color=#FFFFFF] - Ruch w górę i dół[/color][/font_size]
+[font_size=12][b][color=#FFD700]ESC[/color][/b][color=#FFFFFF] - Pauza[/color][/font_size]
 
 [font_size=12][color=#FFFFFF]🎯 [b]Cel gry:[/b] Zbierz [b]30 ciekawostek[/b] zanim skończy się czas!  
 Gra kończy się, gdy:[/color][/font_size]
-[font_size=12]• Upłynie czas[/font_size]
-[font_size=12]• Zbierz wszystkie ciekawostki[/font_size]
+[font_size=12][color=#FFFFFF]• Upłynie czas  
+• Zbierzesz wszystkie ciekawostki
+• Wejdziesz na stworka[/color][/font_size]
 
 [font_size=12][color=#FFFFFF]Powodzenia! 🦫🌍[/color][/font_size]
 	"""
